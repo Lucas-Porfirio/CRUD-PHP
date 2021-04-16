@@ -1,5 +1,6 @@
 {
     "name" : "wdev/vagas",
+    "description": "Some description will be useful too!",
     "autoload":{
         "psr-4":{
             "App\\":"app/"
