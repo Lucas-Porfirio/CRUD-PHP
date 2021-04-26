@@ -1,5 +1,8 @@
 <?php
 require ('./vendor/autoload.php');
-include ('./Header.php');
-include ('./Listagem.php');
-include ('./footer.php');
+use \App\Entity\Vaga;
+$vagas = Vaga:: getVagas();
+
+include ('./Includes/Header.php');
+include ('./Includes/Listagem.php');
+include ('./Includes/footer.php');
